@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Busca por palavras",
+  "description": "Busca por palavras",
+  "version": "1.0.0",
+  "icons": { "128": "lupa.png" },
+  "browser_action": {
+    "default_icon": "lupa.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}

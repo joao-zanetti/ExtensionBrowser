@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head >
+  <title>Busca Por Palavras</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img alt="imagemlogolupa" class="logo-icon" src="lupa.png">Busca de Palavras
+    </h1>
+  </div>
+
+  <div>
+    <form class="modal-content marginall" id="dataform">
+      <label for="stringOriginal">Digite uma Palavra</label>
+      <input class="item marginall" type="text" id="stringOriginal" name="stringOriginal" required>
+
+      <label for="selpalavraExtra" >Escolha uma Palavra </label>
+      <select class="item marginall" id="selpalavraExtra" name="selpalavraExtra" required>
+        <option label=""></option>
+      </select>
+
+      <input  class="buttons marginall" type="submit" value="Buscar Palavra Concatenada">
+      
+      <button class="buttons marginall" id="buscapalavra" type="button">Buscar Apenas Palavra Digitada</button>
+    </form>
+  </div>
+  <script src="scriptbp.js"></script>
+</body>
+
+</html>
