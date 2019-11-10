@@ -1,3 +1,7 @@
+/*
+    Developed by João Zanetti
+    https://github.com/joao-zanetti
+*/
 var stringOriginal = document.querySelector('#stringOriginal');
 var dataform = document.querySelector('#dataform');
 var selpalavraExtra= document.querySelector('#selpalavraExtra');
